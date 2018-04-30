@@ -1,5 +1,4 @@
 from datetime import datetime
-# from DjangoUeditor.models import UEditorField
 
 from django.db import models
 from organization.models import CourseOrg, Teacher
