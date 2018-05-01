@@ -36,8 +36,6 @@ urlpatterns = [
     # 配置上传文件的访问处理函数
     re_path('^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}),
 
-    # 富文本相关url
-    # re_path('^ueditor/', include('DjangoUeditor.urls')),
 
 
 
